@@ -1,0 +1,8 @@
+<div *ngIf="deck" class="deck"> 
+    <p class="value_deck" [ngClass]="{'value_red': isRed()}">
+        {{deck.nipe}}
+    </p>
+    <p class="nipe_deck" [ngClass]="{'value_red': isRed()}">
+        {{deck.value}}
+    </p>
+</div>

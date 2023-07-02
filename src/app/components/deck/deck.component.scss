@@ -1,0 +1,21 @@
+.deck {
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    width: 100px;
+    height: 130px;
+}
+
+.value_deck {
+    margin: 5px;
+}
+
+.nipe_deck {
+    display: flex;
+    justify-content: center;
+}
+
+.value_red {
+    color: red;
+}
